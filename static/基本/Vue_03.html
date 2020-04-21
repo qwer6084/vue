@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../js/vue.js"></script>
+    <script src="../js/jquery-3.4.1.js"></script>
+</head>
+<body>
+  <div id="app">
+      {{sties}}
+  </div>
+  <p id="info"></p>
+<script>
+    // new Vue({
+    //     el:"#app",
+    //     data:{
+    //         sties:[]
+    //     },
+    //     create:function(){
+    //         var self = this;
+    //         $.ajax({
+    //             url:"http://localhost:8080/brand/listAll",
+    //             type:'get',
+    //             data:{},
+    //             dataType:'JSON',
+    //             success:function (data) {
+    //                 console.log(data+"111");
+    //                 self.sties=data;
+    //             }
+    //         })
+    //     }
+    // })
+    window.onload=function f() {
+        $.ajax({
+            url:"http://localhost:8080/brand/listAll",
+            type:"get",
+            success: function(data) {
+                let s = JSON.stringify(data);
+                console.log(s+"111111")
+            }
+        })
+    }
+</script>
+
+</body>
+</html>

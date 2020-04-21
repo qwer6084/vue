@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>input元素</p>
+    <label><input type="text" v-model="message" placeholder="编辑"></label>
+    <p>消息是：{{message}}</p>
+    <p>textarea元素</p>
+    <p>{{message2}}</p>
+    <label><textarea v-model="message2" placeholder="多行文本输入"></textarea></label>
+
+</div>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            message:"测试",
+            message2:"测试"
+        }
+    })
+</script>
+</body>
+</html>
