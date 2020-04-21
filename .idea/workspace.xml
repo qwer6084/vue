@@ -4,7 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f74504-8344-4f46-a240-b025abba3012" name="Default Changelist" comment="" />
+    <list default="true" id="59f74504-8344-4f46-a240-b025abba3012" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/基本/Vue_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/基本/Vue_03.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <bower-package value="" />
@@ -30,6 +37,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1XkiIHk0YOnahluX4DePx51e5Pc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
@@ -80,6 +89,7 @@
       <workItem from="1582294741642" duration="3901000" />
       <workItem from="1582365621695" duration="1091000" />
       <workItem from="1582808806871" duration="4966000" />
+      <workItem from="1587469819744" duration="124000" />
     </task>
     <servers />
   </component>
